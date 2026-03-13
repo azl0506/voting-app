@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    background-color:ghostwhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 50px gray;
+}
+button{
+    width: 100px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.yes-btn{
+    background-color: #ffacda;
+}
+.no-btn{
+    background-color: #e40072;
+}
+.maybe-btn{
+    background-color: #d079a9;
+}
+.reset-btn{
+    background-color: hotpink;
+}

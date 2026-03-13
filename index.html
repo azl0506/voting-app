@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting APP</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1> Quick Poll</h1>
+        <p class="Question">Do you like Javascript?</p>
+        <div class="voting-button">
+            <button class="yes-btn" onclick="vote('yes')">👍 Yes</button>
+            <button class="no-btn" onclick="vote('no')">👎 No</button>
+            <button class="maybe-btn" onclick="vote('maybe')">🤨 Maybe</button>
+        </div>
+
+        <div class="result" id="result">
+            <h2>Results</h2>
+            <p class="no-votes">No votes yet. Cast your vote!</p>
+        </div>
+
+        <div class="vote-list" id="voteList">
+            <h3>Vote History:</h3>
+            <div id="voteItems"></div>
+        </div>
+
+        <button class="reset-btn" onclick="resetVotes()">Reset Votes</button>
+    </div>
+</body>
+</html>
